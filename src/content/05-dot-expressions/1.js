@@ -1,0 +1,4 @@
+export let s43 = `let entertainer = {name: "Jacques", famous: false}
+let entertainerName = entertainer.name
+`
+export let s44 = [{"type":"addobject"},{"boxNumber":0,"boxColumn":"right","name":"name","type":"addrow"},{"boxNumber":0,"column":"right","primitive":"\"Jacques\"","row":0,"type":"primitive"},{"boxNumber":0,"boxColumn":"right","name":"famous","type":"addrow"},{"boxNumber":0,"column":"right","primitive":"false","row":1,"type":"primitive"},{"boxNumber":0,"boxColumn":"left","name":"entertainer","type":"addrow"},{"originBox":0,"destinationBox":0,"originRow":0,"originCol":"left","destinationCol":"right","type":"reference"},{"boxNumber":0,"boxColumn":"left","name":"entertainerName","type":"addrow"},{"boxNumber":0,"column":"left","primitive":"\"Jacques\"","row":1,"type":"primitive"}]

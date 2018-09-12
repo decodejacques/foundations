@@ -1,0 +1,51 @@
+body {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+table, tr, td {
+    border-collapse: collapse;
+    border: solid #ddd;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+table {
+    margin-bottom: 20px;
+    min-height: 20px;
+    min-width: 50px;
+}
+
+td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #888
+}
+
+.keybindings {
+    color: #888
+}
+
+pre {
+    margin-top: 0
+}
+
+.innerCallStack {
+    text-align: center;
+    margin-left: 20px
+}
+
+.callStackTitle {
+    color: #aaa;
+    margin-bottom: 10px
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.callitem {
+    color: #888
+}

@@ -1,0 +1,12 @@
+export let s75 = `let double = (x) => {
+    return x * 2
+}
+let s = double(5)
+let getName = x => {
+    return x.name
+}
+let sue = {name: "sue"}
+let x = getName(sue)
+let n = getName({name: "bob"})
+`
+export let s76 = [{"type":"addFunction","lineNumber":1},{"boxNumber":0,"boxColumn":"left","name":"double","type":"addrow"},{"originBox":0,"destinationBox":0,"originRow":0,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"addframe"},{"boxNumber":1,"boxColumn":"left","name":"x","type":"addrow"},{"boxNumber":1,"column":"left","primitive":"5","row":0,"type":"primitive"},{"type":"pushcallstack","lineNumber":4},{"type":"destroyframe"},{"type":"popcallstack"},{"boxNumber":0,"boxColumn":"left","name":"s","type":"addrow"},{"boxNumber":0,"column":"left","primitive":"10","row":1,"type":"primitive"},{"type":"addFunction","lineNumber":5},{"boxNumber":0,"boxColumn":"left","name":"getName","type":"addrow"},{"originBox":0,"destinationBox":1,"originRow":2,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"addobject"},{"boxNumber":2,"boxColumn":"right","name":"name","type":"addrow"},{"boxNumber":2,"column":"right","primitive":"\"sue\"","row":0,"type":"primitive"},{"boxNumber":0,"boxColumn":"left","name":"sue","type":"addrow"},{"originBox":0,"destinationBox":2,"originRow":3,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"addframe"},{"boxNumber":1,"boxColumn":"left","name":"x","type":"addrow"},{"originBox":1,"destinationBox":2,"originRow":0,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"pushcallstack","lineNumber":9},{"type":"destroyframe"},{"type":"popcallstack"},{"boxNumber":0,"boxColumn":"left","name":"x","type":"addrow"},{"boxNumber":0,"column":"left","primitive":"\"sue\"","row":4,"type":"primitive"},{"type":"addobject"},{"boxNumber":3,"boxColumn":"right","name":"name","type":"addrow"},{"boxNumber":3,"column":"right","primitive":"\"bob\"","row":0,"type":"primitive"},{"type":"addframe"},{"boxNumber":1,"boxColumn":"left","name":"x","type":"addrow"},{"originBox":1,"destinationBox":3,"originRow":0,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"pushcallstack","lineNumber":10},{"type":"destroyframe"},{"type":"popcallstack"},{"boxNumber":0,"boxColumn":"left","name":"n","type":"addrow"},{"boxNumber":0,"column":"left","primitive":"\"bob\"","row":5,"type":"primitive"}]

@@ -1,0 +1,8 @@
+export let s121 = `let totalSales = (sales, fudgeFactor) => {
+    return sales.firstHalf + sales.secondHalf + fudgeFactor
+}
+let sales = { firstHalf: 50, secondHalf: 100 }
+let fudge = { factor: 25 }
+totalSales(sales, fudge.factor)
+`
+export let s122 = [{"type":"addFunction","lineNumber":1},{"boxNumber":0,"boxColumn":"left","name":"totalSales","type":"addrow"},{"originBox":0,"destinationBox":0,"originRow":0,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"addobject"},{"boxNumber":1,"boxColumn":"right","name":"firstHalf","type":"addrow"},{"boxNumber":1,"column":"right","primitive":"50","row":0,"type":"primitive"},{"boxNumber":1,"boxColumn":"right","name":"secondHalf","type":"addrow"},{"boxNumber":1,"column":"right","primitive":"100","row":1,"type":"primitive"},{"boxNumber":0,"boxColumn":"left","name":"sales","type":"addrow"},{"originBox":0,"destinationBox":1,"originRow":1,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"addobject"},{"boxNumber":2,"boxColumn":"right","name":"factor","type":"addrow"},{"boxNumber":2,"column":"right","primitive":"25","row":0,"type":"primitive"},{"boxNumber":0,"boxColumn":"left","name":"fudge","type":"addrow"},{"originBox":0,"destinationBox":2,"originRow":2,"originCol":"left","destinationCol":"right","type":"reference"},{"type":"addframe"},{"boxNumber":1,"boxColumn":"left","name":"sales","type":"addrow"},{"originBox":1,"destinationBox":1,"originRow":0,"originCol":"left","destinationCol":"right","type":"reference"},{"boxNumber":1,"boxColumn":"left","name":"fudgeFactor","type":"addrow"},{"boxNumber":1,"column":"left","primitive":"25","row":1,"type":"primitive"},{"type":"pushcallstack","lineNumber":6},{"type":"destroyframe"},{"type":"popcallstack"}]
